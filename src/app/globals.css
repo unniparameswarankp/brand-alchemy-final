@@ -213,7 +213,7 @@
 }
 
 body {
-  background: #f6f4f1;
+  background: #ffffff;;
   color: #000000;
    font-family: 'Bahnschrift';
 }
@@ -495,7 +495,7 @@ a{
     position: absolute;
     width: calc(100% - 14px);
     height: calc(100% - 14px);
-    background-color: #f6f4f1;
+    background-color: #ffffff;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
