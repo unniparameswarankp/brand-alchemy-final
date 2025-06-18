@@ -574,9 +574,13 @@ a{
       }
   }
   img{
-    min-height: 80vh;
-    max-height: 500px;
+   
     object-fit: cover;
+     @media (min-width: 1001px) {
+       min-height: 80vh;
+    max-height: 500px;
+     }
+
   }
 }
 .image-step{
