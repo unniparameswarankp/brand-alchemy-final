@@ -320,6 +320,10 @@ body {
     font-size: clamp(3rem, 10vw, 10rem);
     font-weight: 300;
   }
+  video{
+    width: 110%;
+    height: 110%;
+  }
 }
 
 .ba-our-story{
