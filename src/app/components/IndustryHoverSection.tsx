@@ -73,6 +73,14 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
     <div className="w-full min-h-screen bg-white py-20 px-4 flex justify-center relative">
       {/* Title list */}
       <div className="ba-container z-10">
+        <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
+            viewport={{ once: true, amount: 0.2 }}
+            >
+        <p className="text-center max-w-full text-[clamp(1.2rem,2vw,2rem)] w-[1000] ml-auto mr-auto font-light mb-10">We work with a diverse range of industries to deliver digital solutions that solve real problems and drive growth. From healthcare and beauty to real estate, fashion, and beyond — our work is shaped by deep understanding and a focus on meaningful results.</p>
+        </motion.div>
         {industries.map((item, index) => (
           <motion.div
             key={index}
