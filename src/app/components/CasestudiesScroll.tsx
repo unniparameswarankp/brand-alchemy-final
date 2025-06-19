@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -102,11 +103,12 @@ export default function CaseStudiesScroll() {
   }, []);
 
   return (
-    <section
-    id="section2"
-      ref={sectionRef}
-      className="relative w-full h-screen text-black overflow-hidden ba-service-scroll"
-    >
+    <>
+   <section
+  id="section2"
+  ref={sectionRef}
+  className="relative w-full h-screen text-black overflow-hidden ba-service-scroll hidden sm:block"
+>
       {/* Title */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1]">
         <h2
@@ -129,6 +131,32 @@ export default function CaseStudiesScroll() {
     
       </div>
     </section>
+     <section className="block sm:hidden px-4 py-8">
+      <h2 className="font-light text-[clamp(2rem,8vw,5rem)] text-center mb-6">Some of our works</h2>
+      <div className="grid grid-cols-1 gap-6">
+        {caseStudies.map((study, index) => (
+          <motion.div
+            key={study.id}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            viewport={{ once: true }}
+            className="text-black mb-4"
+          >
+            <img src={study.image} alt={study.title} className="rounded-lg mb-3" />
+            <h3 className="text-xl font-light mb-1">{study.title}</h3>
+            <p className="text-sm opacity-80 mb-2">{study.desc}</p>
+            <Link
+              href="#"
+              className="inline-flex items-center gap-2 text-sm text-white mt-auto arrow-btn-black"
+            >
+              Read More <img src="/arrow_right_white.svg" alt="arrow" />
+            </Link>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+    </>
   );
 }
 
