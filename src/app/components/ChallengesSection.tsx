@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { FiEdit, FiSmartphone } from "react-icons/fi";
-import { BsSnow2 } from "react-icons/bs"; // For sparkle/star-like icon
 
   const images = [
     "/images/webdevelopment.jpg", // Replace with your real image paths
