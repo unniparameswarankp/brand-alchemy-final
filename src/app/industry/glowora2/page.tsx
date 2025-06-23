@@ -204,7 +204,7 @@ export default function IndustryPage() {
       <div className="max-w-5xl mx-auto ">
 
         <h2
-          className="text-5xl font-light mb-6"
+          className="text-4xl font-light mb-6"
         >
          The Result
         </h2>
