@@ -9,10 +9,6 @@ import { useInView } from "react-intersection-observer";
 
 
 export default function IndustryPage() {
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-    triggerOnce: false,
-  });
   return (
     <>
       <Header />
