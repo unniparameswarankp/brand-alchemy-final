@@ -20,10 +20,11 @@ export default function CaseStudySection() {
           <h2 className="text-2xl font-light">Services Provided</h2>
           <div className="flex flex-wrap gap-3">
             {[
-              "UI/UX Design",
-              "Web Development",
-              "E-commerce",
-              "Content Management System (CMS)",
+              "Full-Scale Brand Identity",
+              "Visual Rollout",
+              "Digital Marketing",
+              "Business Card",
+              "Web Development"
             ].map((service, i) => (
               <span
                 key={i}
@@ -42,17 +43,10 @@ export default function CaseStudySection() {
           className="md:w-[65%] w-full space-y-6"
         >
           <h3 className="text-3xl font-light leading-snug">
-            Giving Turtle Wax an Incredible Digital Shift with a Complete Website Revamp
+             Overview
           </h3>
           <p>
-            Turtle Wax wanted a comprehensive ecommerce website revamp for its Indian
-            website. The core focus of the website was to portray and list the Turtle Wax
-            products along with incorporating a ‘Book a Car Care’ service feature and lead
-            collection module. The project aimed at a complete Shopify ecommerce website
-            revamp to build an engaging, modern, and well-optimised website. Our team at
-            WAC did extensive competitor and marketing research to help the website get a
-            booking system that organises the users’ needs with a highly promising user
-            experience.
+          Glowora entered the market with a bold ambition — to redefine beauty and wellness through a premium yet accessible brand. But the brand needed clarity, emotional connection, and visual consistency. That’s when the Alchemy team partnered with them to build a fully integrated brand identity and experience — one that resonates both digitally and in the real world.
           </p>
 
 

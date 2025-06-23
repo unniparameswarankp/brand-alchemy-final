@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 
 const title =
-    "User-Engaging ECommerce Website to Boost Turtle Wax's Car Care Services";
+    "Glowora – A Brand Reimagined";
 
   const words = title.split(" ");
 
@@ -10,7 +10,7 @@ const title =
 export default function IndustriesBanner() {
   return (
     <div
-      className="relative h-[500px] md:h-screen w-full bg-cover bg-center flex items-center justify-center text-white"
+      className="relative h-[500px] w-full bg-cover bg-center flex items-center justify-center text-white"
       style={{
         backgroundImage: "url('/images/industry-banner.jpg')", // replace with your image path
       }}
@@ -45,7 +45,7 @@ export default function IndustriesBanner() {
       <div className="absolute bottom-10 w-full   left-0 text-2xl">
         <div className="ba-container">
         <p className="text-white  ">Industry</p>
-        <p className="text-white text-lg ">Automobile</p>
+        <p className="text-white text-lg ">Beauty / Wellness / Cosmetics</p>
         </div>
       </div>
     </div>
