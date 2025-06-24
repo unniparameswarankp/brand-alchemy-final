@@ -4,6 +4,8 @@ import IndustriesBanner from '../../components/IndustriesBanner';
 import Footer from '../../components/Footer';
 import Link from 'next/link';
 import { motion, Variants } from 'framer-motion';
+import FloatingButton from '../../components/FloatingButton';
+
 
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 30 },
@@ -723,7 +725,7 @@ export default function IndustryPage() {
     </motion.div>
   </motion.div>
 </motion.section>
-
+    <FloatingButton />
     <Footer />
       </>
     );
