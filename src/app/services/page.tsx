@@ -4,7 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import IndustryBanner from '../components/IndustryBanner';
+import ServicesBanner from '../components/ServicesBanner';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import OurStory from '../components/OurStory';
@@ -156,7 +156,7 @@ export default function IndustryPage() {
   return (
     <>
       <Header />
-      <IndustryBanner />
+      <ServicesBanner />
 
      {sectionData.map((section, i) => (
   <section
@@ -191,9 +191,29 @@ export default function IndustryPage() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.1 * index, duration: 0.5 }}
             viewport={{ once: true }}
-            className="border-b  border-gray-300 pb-4"
+            className="border-b  border-gray-300 pb-5"
           >
-            <Link href="#">{item}</Link>
+            <Link
+  href="#"
+  className="flex items-center justify-between group transition-all duration-300"
+>
+  <span>{item}</span>
+  <span
+    className="ml-2 transform translate-x-2 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300"
+  >
+    <svg
+  className=""
+  style={{ display: 'inline-block', verticalAlign: 'middle' }}
+  width="32"
+  height="32"
+  viewBox="0 0 1538 1024"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M1006.294 1024l-67.791-70.432 458.589-441.568-458.687-441.568 67.791-70.432 531.956 512z" />
+  <path d="M1467.329 560.813h-1467.329v-97.822h1467.329z" />
+</svg>
+  </span>
+</Link>
           </motion.li>
         ))}
       </ul>
