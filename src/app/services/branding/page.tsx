@@ -152,7 +152,7 @@ export default function BrandingPage() {
       <p className="text-lg text-gray-700 leading-relaxed mb-5">
         At Alchemy, our branding services are crafted to transform your vision into a distinct and memorable identity. From logo creation and brand design to comprehensive brand strategies and guidelines, we ensure every element speaks your story with clarity and impact.</p>
 
-       <p className="text-lg text-gray-700 leading-relaxed">We dive deep into understanding your business goals, audience, and market positioning to create branding that feels authentic and purposeful. Whether you're launching a new startup or refreshing an existing brand, our creative team works closely with you to build a cohesive identity that resonates across platforms. Every detail—from visual style to tone of voice—is carefully considered to build recognition, trust, and emotional connection.
+       <p className="text-lg text-gray-700 leading-relaxed">We dive deep into understanding your business goals, audience, and market positioning to create branding that feels authentic and purposeful. Whether you&apos;re launching a new startup or refreshing an existing brand, our creative team works closely with you to build a cohesive identity that resonates across platforms. Every detail—from visual style to tone of voice—is carefully considered to build recognition, trust, and emotional connection.
       </p>
     </div>
   </motion.div>
