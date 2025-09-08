@@ -140,7 +140,7 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
               <div className="w-[380px] h-[80px] absolute top-1/2 left-1/2 -translate-y-2/2">
                 <AnimatePresence>
                   {hovered === index && (
-                   <motion.Image
+                   <motion.img
                         key={item.name}
                         src={item.image}
                         alt={item.name}
