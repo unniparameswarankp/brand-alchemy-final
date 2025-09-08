@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from "next/image";
 type Brand = {
   title: string;
   image: string;
@@ -139,7 +140,7 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
               <div className="w-[380px] h-[80px] absolute top-1/2 left-1/2 -translate-y-2/2">
                 <AnimatePresence>
                   {hovered === index && (
-                   <motion.img
+                   <motion.Image
                         key={item.name}
                         src={item.image}
                         alt={item.name}
@@ -208,7 +209,7 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
 </svg>
 
             </button>
-            <img
+            <Image
               src={selected.image}
               alt={selected.name}
               className="w-full h-[clamp(300px,50vh,600px)] object-cover rounded-xl mb-6"
@@ -221,13 +222,13 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {selected.brands.map((brand, index) => (
         <div key={index} className="rounded-lg overflow-hidden shadow-sm">
-          <img
+          <Image
             src={brand.image}
             alt={brand.title}
             className="w-full h-64 object-cover"
           />
           <div className="p-2 text-center   text-black">
-            {brand.title}
+            <a href="/industry/glowora2/">{brand.title}</a>
           </div>
         </div>
       ))}

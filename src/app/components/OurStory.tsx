@@ -2,6 +2,7 @@
 'use client';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import Image from "next/image";
 
 
 import Link from 'next/link';
@@ -71,7 +72,7 @@ export default function OurStory() {
             narrative – a tale that encapsulates laughter, tears, challenges, and triumphs.
           </p>
           <Link href="#" className="inline-flex items-center gap-3 arrow-btn-border-black">
-                Read More <img src="/arrow_right_white.svg" alt="arrow" />
+                Read More <Image src="/arrow_right_white.svg" alt="arrow" />
               </Link>
         </motion.div>
 

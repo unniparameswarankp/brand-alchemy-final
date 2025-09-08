@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Easing } from "framer-motion";
+import Image from "next/image";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 40 },
@@ -53,7 +54,7 @@ export default function CaseStudySection() {
           {/* Link */}
          
           <Link href="#" className="inline-flex items-center gap-3 arrow-btn-black">
-                View Live Website <img src="/arrow_right_white.svg" alt="arrow" />
+                View Live Website <Image src="/arrow_right_white.svg" alt="arrow" />
               </Link>
         </motion.div>
       </div>

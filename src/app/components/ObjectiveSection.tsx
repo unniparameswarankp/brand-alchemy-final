@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 
 
 export default function ObjectiveSection() {
@@ -62,7 +62,7 @@ export default function ObjectiveSection() {
                   viewport={{ once: true }}
                   className="w-full overflow-hidden"
                 >
-                  <img
+                  <Image
                     src=""
                     className="w-full h-[480px] object-cover"
                   />

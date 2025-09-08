@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {  useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import Image from "next/image";
 
 const title = 'About Us';
 
@@ -56,7 +57,7 @@ const toggle = (index: number): void => {
           >
             {/* Background image */}
             <div className="absolute inset-0 z-0">
-              <img
+              <Image
                 src="/images/industry-banner.jpg"
                 alt="Industry Banner"
                 className="w-full h-full object-cover"
@@ -114,7 +115,7 @@ const toggle = (index: number): void => {
   
   <div className="flex flex-col lg:flex-row items-center gap-12">
     <div className="w-full lg:w-1/2">
-      <img
+      <Image
         src="/images/team/founder.jpg"
         alt="Founder Name"
         className="rounded-2xl w-full h-auto object-cover shadow-md"
@@ -143,7 +144,7 @@ const toggle = (index: number): void => {
   
   <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
     <div className="w-full lg:w-1/2">
-      <img
+      <Image
         src="/images/team/founder.jpg"
         alt="Founder Name"
         className="rounded-2xl w-full h-auto object-cover shadow-md"
@@ -193,7 +194,7 @@ const toggle = (index: number): void => {
         key={index}
         className="rounded-2xl overflow-hidden shadow-lg bg-gray-100 hover:shadow-xl transition-shadow duration-300"
       >
-        <img
+        <Image
           src={member.image}
           alt={member.name}
           className="w-full h-64 object-cover"

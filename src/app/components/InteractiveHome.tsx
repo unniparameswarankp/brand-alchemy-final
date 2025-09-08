@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -169,7 +170,7 @@ export default function InteractiveHome() {
           className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center opacity-0 pointer-events-none"
           style={{ willChange: 'opacity' }}
         > <figure>
-            <img
+            <Image
             src={image}
             alt={title}
             className="w-64"
@@ -183,7 +184,7 @@ export default function InteractiveHome() {
             {title}
           </h2>
           <p className="paragraph text-lg max-w-xl mb-8">{paragraph}<br/><br/><a href="#" className="inline-flex items-center gap-3 arrow-btn-black">
-                Read More <img src="/arrow_right_white.svg" alt="arrow" /></a></p>
+                Read More <Image src="/arrow_right_white.svg" alt="arrow" /></a></p>
           
         </div>
       ))}

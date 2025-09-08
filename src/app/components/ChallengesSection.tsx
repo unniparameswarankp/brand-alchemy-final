@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const images = [
   "/images/webdevelopment.jpg",
@@ -81,7 +82,7 @@ export default function ObjectiveSection() {
             viewport={{ once: true }}
             className="w-full overflow-hidden"
           >
-            <img
+            <Image
               src={src}
               alt={`grid-image-${i}`}
               className="w-full h-[480px] object-cover"

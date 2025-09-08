@@ -2,6 +2,7 @@
 
 import {  useRef } from 'react';
 import { motion } from 'framer-motion';
+import Image from "next/image";
 
 const title = 'Shaping the Future of Innovation';
 
@@ -16,7 +17,7 @@ export default function IndustryBanner() {
     >
       {/* Background image */}
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src="/images/industry-banner.jpg"
           alt="Industry Banner"
           className="w-full h-full object-cover"

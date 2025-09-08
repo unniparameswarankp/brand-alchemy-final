@@ -6,7 +6,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import BandingBanner from '../../components/BrandingBanner';
 import { FaPalette, FaFilm, FaPenNib, FaLightbulb, FaRocket, FaShapes, FaSyncAlt, FaBookOpen, FaFolderOpen, FaSearch, FaCubes } from 'react-icons/fa';
-
+import Image from "next/image";
 const services = [
   {
     title: 'Logos',
@@ -131,7 +131,7 @@ export default function BrandingPage() {
   >
     {/* Left Image */}
     <div className="w-full lg:w-1/2">
-      <img
+      <Image
         src="/images/branding/image2.jpg"
         alt="Branding visual"
         className="rounded-xl object-cover w-full h-[400px]"
@@ -175,7 +175,7 @@ export default function BrandingPage() {
             <h3 className="text-2xl font-light mb-4 mt-4">{service.title}</h3>
             <p className="text-base mb-4">{service.description}</p>
            <Link
-        href="#"
+        href="/services/branding/"
         className="inline-flex items-center gap-3 arrow-btn-black mt-5"
       >
         Explore {service.title}{' '}
@@ -314,7 +314,7 @@ export default function BrandingPage() {
         transition={{ duration: 0.6, delay: index * 0.1 }}
         viewport={{ once: true }}
       >
-        <img
+        <Image
           src={caseStudy.image}
           alt={caseStudy.title}
           className="w-full h-56 object-cover"
@@ -328,7 +328,7 @@ export default function BrandingPage() {
         className="inline-flex items-center gap-3 arrow-btn-black"
       >
         View Case Study{' '}
-        <img src="/arrow_right_white.svg" alt="arrow" />
+        <Image src="/arrow_right_white.svg" alt="arrow" />
       </Link>
         </div>
       </motion.div>

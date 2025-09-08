@@ -12,9 +12,9 @@ export default function Footer() {
           <div>
             <h3 className="font-light text-2xl mb-4">Company</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><Link href="#">About</Link></li>
-              <li><Link href="#">Services</Link></li>
-              <li><Link href="#">Industries</Link></li>
+              <li><Link href="/about/">About</Link></li>
+              <li><Link href="/services/">Services</Link></li>
+              <li><Link href="/industry/">Industries</Link></li> 
               <li><Link href="#">Works</Link></li>
               <li><Link href="#">Careers</Link></li>
               <li><Link href="#">Contact</Link></li>
@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <h3 className="font-light text-2xl mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><Link href="#">Branding</Link></li>
+              <li><Link href="/services/branding/">Branding</Link></li>
               <li><Link href="#">Experience Design</Link></li>
               <li><Link href="#">Technology</Link></li>
               <li><Link href="#">Digital Marketing</Link></li>

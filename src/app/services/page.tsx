@@ -8,6 +8,7 @@ import ServicesBanner from '../components/ServicesBanner';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import OurStory from '../components/OurStory';
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -177,11 +178,11 @@ export default function IndustryPage() {
       <h2 className="text-3xl lg:text-4xl font-light mb-8">{section.title}</h2>
       <p className='text-lg'>{section.description}</p>
       <Link
-        href="#"
+        href="/services/branding/"
         className="inline-flex items-center gap-3 arrow-btn-black mt-5"
       >
         Explore {section.title}{' '}
-        <img src="/arrow_right_white.svg" alt="arrow" />
+        <Image src="/arrow_right_white.svg" alt="arrow" />
       </Link>
       <ul className="space-y-6 text-lg lg:text-2xl mt-7">
         {section.services.map((item, index) => (

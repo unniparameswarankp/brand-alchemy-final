@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,7 +68,7 @@ export default function ScrollSteps() {
   viewport={{ once: true, amount: 0.2 }}
   className="rounded-xl shadow-lg overflow-hidden bg-white"
 >
-  <img src={step.image} alt={step.title} className="w-full h-48 object-cover" />
+  <Image src={step.image} alt={step.title} className="w-full h-48 object-cover" />
   <div className="p-4">
     <h3 className="text-xl font-semibold text-primary mb-2">{step.title}</h3>
     <p className="text-sm text-gray-700">{step.text}</p>
@@ -83,7 +84,7 @@ export default function ScrollSteps() {
         <div className="flex flex-col space-y-20 pt-[100px] pb-[100px] image-step mr-[-100px]">
           {steps.map((step, index) => (
             <figure key={index}>
-              <img
+              <Image
                 src={step.image}
                 alt={step.title}
                 className={`step-image w-full transition-opacity duration-500 ease-in-out ${

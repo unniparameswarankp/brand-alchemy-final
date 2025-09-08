@@ -4,10 +4,10 @@
 import Link from "next/link";
 import Image from 'next/image';
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+// import { motion, AnimatePresence } from 'framer-motion';
 
 
-
+ 
 
 
 
@@ -39,13 +39,13 @@ export default function Header() {
         <div className="flex items-center gap-10">
         <nav>
           <ul className="flex items-center">
-            <li><a href="#" >Home</a></li>
-            <li><a href="#" >Services</a></li>
-            <li><a href="#" >Solutions</a></li>
-            <li><a href="#" >Industries</a></li>
-            <li><a href="#" >Works</a></li>
-            <li><a href="#" >About</a></li>
-            <li><a href="#" >Contact</a></li>
+            <li><Link href="/" >Home</Link></li>
+            <li><Link href="/services/" >Services</Link></li>
+            <li><Link href="#" >Solutions</Link></li>
+            <li><Link href="/industry/" >Industries</Link></li>
+            <li><Link href="#" >Works</Link></li>
+            <li><Link href="/about/" >About</Link></li>
+            <li><Link href="#" >Contact</Link></li>
           </ul>
         </nav>
         <button
@@ -71,7 +71,7 @@ export default function Header() {
       </button>
       </div>
       </div>
-      <AnimatePresence>
+{/*      <AnimatePresence>
         {open && (
           <motion.div
             initial={{ x: '100%' }}
@@ -87,7 +87,7 @@ export default function Header() {
             <a href="#" className="text-lg hover:text-blue-600">Contact</a>
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence>*/}
     </header>
   );
 }
