@@ -64,6 +64,7 @@ export default function ObjectiveSection() {
                 >
                   <Image width="64" height="64"
                     src=""
+                    alt="image"
                     className="w-full h-[480px] object-cover"
                   />
                 </motion.div>
