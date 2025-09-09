@@ -210,6 +210,7 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
 
             </button>
             <Image
+            width="64" height="64"
               src={selected.image}
               alt={selected.name}
               className="w-full h-[clamp(300px,50vh,600px)] object-cover rounded-xl mb-6"
