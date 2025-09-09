@@ -72,7 +72,7 @@ export default function OurStory() {
             narrative – a tale that encapsulates laughter, tears, challenges, and triumphs.
           </p>
           <Link href="#" className="inline-flex items-center gap-3 arrow-btn-border-black">
-                Read More <Image src="/arrow_right_white.svg" alt="arrow" />
+                Read More <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
               </Link>
         </motion.div>
 

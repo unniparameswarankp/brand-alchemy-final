@@ -35,7 +35,7 @@ export default function BlogPage() {
           >
             {/* Background image */}
             <div className="absolute inset-0 z-0">
-              <Image
+              <Image width="64" height="64"
                 src="/images/industry-banner.jpg"
                 alt="Industry Banner"
                 className="w-full h-full object-cover"

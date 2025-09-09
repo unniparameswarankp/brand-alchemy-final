@@ -175,6 +175,8 @@ export default function InteractiveHome() {
             alt={title}
             className="w-64"
             draggable={false}
+            width="64"
+            height="64"
           />
           </figure>
           <h2
@@ -184,7 +186,7 @@ export default function InteractiveHome() {
             {title}
           </h2>
           <p className="paragraph text-lg max-w-xl mb-8">{paragraph}<br/><br/><a href="#" className="inline-flex items-center gap-3 arrow-btn-black">
-                Read More <Image src="/arrow_right_white.svg" alt="arrow" /></a></p>
+                Read More <Image src="/arrow_right_white.svg" alt="arrow" width="64" height="64" /></a></p>
           
         </div>
       ))}

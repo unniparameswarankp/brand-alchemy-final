@@ -127,7 +127,7 @@ export default function IndustryPage() {
                 className="inline-flex items-center gap-3 arrow-btn-black"
               >
                 View Live Website{" "}
-                <Image src="/arrow_right_white.svg" alt="arrow" />
+                <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
               </Link>
             </motion.div>
           </motion.div>
@@ -190,7 +190,7 @@ export default function IndustryPage() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <Image className="rounded-lg" src="/images/glowora/image4.jpeg" alt="Glowora project" />
+        <Image width="64" height="64" className="rounded-lg" src="/images/glowora/image4.jpeg" alt="Glowora project" />
       </motion.figure>
     </motion.div>
   </div>
@@ -232,7 +232,7 @@ export default function IndustryPage() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <Image
+          <Image width="64" height="64"
             src="/images/glowora/image5.jpeg"
             className="w-full h-auto object-cover mb-4 rounded-lg"
             alt="Glowora visual 1"
@@ -247,7 +247,7 @@ export default function IndustryPage() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <Image
+          <Image width="64" height="64"
             src="/images/glowora/image10.jpeg"
             className="w-full h-auto object-cover mb-4 rounded-lg"
             alt="Glowora visual 2"
@@ -375,7 +375,7 @@ export default function IndustryPage() {
       whileInView="visible"
       viewport={{ once: true }}
     >
-      <Image src="/images/glowora/image3.jpeg" className="w-full h-auto object-cover rounded-lg mb-4" alt="Business Card" />
+      <Image width="64" height="64" src="/images/glowora/image3.jpeg" className="w-full h-auto object-cover rounded-lg mb-4" alt="Business Card" />
       <h4 className="text-2xl font-light leading-snug mb-4">Business Card</h4>
       <p>
         We crafted a tactile experience with textured finishes and a minimalist layout, ensuring the card feels like a premium extension of the brand. The design reflects professionalism while adding a hint of creativity through its subtle embossing.
@@ -391,7 +391,7 @@ export default function IndustryPage() {
       whileInView="visible"
       viewport={{ once: true }}
     >
-      <Image src="/images/glowora/image2.jpeg" className="w-full h-auto object-cover rounded-lg mb-4" alt="Newspaper Ad" />
+      <Image width="64" height="64" src="/images/glowora/image2.jpeg" className="w-full h-auto object-cover rounded-lg mb-4" alt="Newspaper Ad" />
       <h4 className="text-2xl font-light leading-snug mb-4">Newspaper Ad & Bill Sticker</h4>
       <p>
         For traditional media, we created layouts that command attention even in dense, content-rich environments. The ad design combines strong headlines, product visuals, and brand language that convert passive readers into curious prospects.
@@ -407,7 +407,7 @@ export default function IndustryPage() {
       whileInView="visible"
       viewport={{ once: true }}
     >
-      <Image src="/images/glowora/image4.jpeg" className="w-full h-auto object-cover rounded-lg mb-4" alt="Packaging" />
+      <Image width="64" height="64" src="/images/glowora/image4.jpeg" className="w-full h-auto object-cover rounded-lg mb-4" alt="Packaging" />
       <h4 className="text-2xl font-light leading-snug mb-4">Bag & Packaging</h4>
       <p>
         Product packaging was given a clean, minimal makeover — prioritizing user experience, shelf appeal, and brand recognizability. Custom shopping bags with embossed logos and color-matched ribbons were designed to elevate Glowora&rsquo;s retail and gifting experience.
@@ -523,7 +523,7 @@ export default function IndustryPage() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <Image
+          <Image width="64" height="64"
             src="/images/glowora/image8.jpeg"
             className="w-full h-auto object-cover mb-4 rounded-lg"
             alt="Instagram Visual"
@@ -538,7 +538,7 @@ export default function IndustryPage() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <Image
+          <Image width="64" height="64"
             src="/images/glowora/image2.jpeg"
             className="w-full h-auto object-cover mb-4 rounded-lg"
             alt="Web Design"
@@ -575,7 +575,7 @@ export default function IndustryPage() {
           variants={fadeInUp}
           custom={2}
         >
-          <Image
+          <Image width="64" height="64"
             src="/images/glowora/image4.jpeg"
             className="w-full h-auto object-cover mb-4 rounded-lg"
             alt="Product Mockup 1"
@@ -587,7 +587,7 @@ export default function IndustryPage() {
           variants={fadeInUp}
           custom={3}
         >
-          <Image
+          <Image width="64" height="64"
             src="/images/glowora/image2.jpeg"
             className="w-full h-auto object-cover mb-4 rounded-lg"
             alt="Product Mockup 2"
@@ -705,7 +705,7 @@ export default function IndustryPage() {
         variants={fadeInUp}
         custom={4}
       >
-        <Image
+        <Image width="64" height="64"
           src="/images/glowora/image8.jpeg"
           className="w-full h-auto object-cover mb-4 rounded-lg"
           alt="Result Image 1"
@@ -717,7 +717,7 @@ export default function IndustryPage() {
         variants={fadeInUp}
         custom={5}
       >
-        <Image
+        <Image width="64" height="64"
           src="/images/glowora/image2.jpeg"
           className="w-full h-auto object-cover mb-4 rounded-lg"
           alt="Result Image 2"

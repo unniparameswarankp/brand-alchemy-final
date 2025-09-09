@@ -182,7 +182,7 @@ export default function IndustryPage() {
         className="inline-flex items-center gap-3 arrow-btn-black mt-5"
       >
         Explore {section.title}{' '}
-        <Image src="/arrow_right_white.svg" alt="arrow" />
+        <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
       </Link>
       <ul className="space-y-6 text-lg lg:text-2xl mt-7">
         {section.services.map((item, index) => (

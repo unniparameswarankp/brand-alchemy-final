@@ -64,7 +64,7 @@ export default function FloatingButton() {
             <div className="grid grid-cols-1 gap-5">
               {caseStudies.map((study, i) => (
                 <div key={i} className="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
-                  <Image
+                  <Image width="64" height="64"
                     src={study.image}
                     alt={study.title}
                     className="w-full h-48 object-cover"
@@ -79,7 +79,7 @@ export default function FloatingButton() {
                 className="inline-flex items-center gap-3 arrow-btn-black mt-5 mb-5"
               >
                 View All Works{" "}
-                <Image src="/arrow_right_white.svg" alt="arrow" />
+                <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
               </Link>
             </div>
           </motion.div>

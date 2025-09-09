@@ -82,7 +82,7 @@ export default function ObjectiveSection() {
             viewport={{ once: true }}
             className="w-full overflow-hidden"
           >
-            <Image
+            <Image width="64" height="64"
               src={src}
               alt={`grid-image-${i}`}
               className="w-full h-[480px] object-cover"

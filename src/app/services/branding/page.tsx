@@ -131,7 +131,7 @@ export default function BrandingPage() {
   >
     {/* Left Image */}
     <div className="w-full lg:w-1/2">
-      <Image
+      <Image width="64" height="64"
         src="/images/branding/image2.jpg"
         alt="Branding visual"
         className="rounded-xl object-cover w-full h-[400px]"
@@ -179,7 +179,7 @@ export default function BrandingPage() {
         className="inline-flex items-center gap-3 arrow-btn-black mt-5"
       >
         Explore {service.title}{' '}
-        <img src="/arrow_right_white.svg" alt="arrow" />
+        <img width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
       </Link>
           </div>
         </motion.div>
@@ -314,7 +314,7 @@ export default function BrandingPage() {
         transition={{ duration: 0.6, delay: index * 0.1 }}
         viewport={{ once: true }}
       >
-        <Image
+        <Image width="64" height="64"
           src={caseStudy.image}
           alt={caseStudy.title}
           className="w-full h-56 object-cover"
@@ -328,7 +328,7 @@ export default function BrandingPage() {
         className="inline-flex items-center gap-3 arrow-btn-black"
       >
         View Case Study{' '}
-        <Image src="/arrow_right_white.svg" alt="arrow" />
+        <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
       </Link>
         </div>
       </motion.div>

@@ -54,7 +54,7 @@ export default function CaseStudySection() {
           {/* Link */}
          
           <Link href="#" className="inline-flex items-center gap-3 arrow-btn-black">
-                View Live Website <Image src="/arrow_right_white.svg" alt="arrow" />
+                View Live Website <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
               </Link>
         </motion.div>
       </div>

@@ -222,7 +222,7 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {selected.brands.map((brand, index) => (
         <div key={index} className="rounded-lg overflow-hidden shadow-sm">
-          <Image
+          <Image width="64" height="64"
             src={brand.image}
             alt={brand.title}
             className="w-full h-64 object-cover"
