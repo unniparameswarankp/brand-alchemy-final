@@ -1,24 +1,11 @@
+// app/ClientWrapper.tsx
 "use client";
 
-import { useEffect } from "react";
+import { usePathname } from "next/navigation";
+import "./utils/patchRemoveChild"; // keep your patch import here (optional)
 
 export default function ClientWrapper({ children }: { children: React.ReactNode }) {
-  useEffect(() => {
-    const oldRemoveChild = Node.prototype.removeChild;
-
-    Node.prototype.removeChild = function <T extends Node>(child: T): T {
-      try {
-        return oldRemoveChild.call(this, child) as T;
-      } catch {
-        return child; // Fallback, ensures type safety
-      }
-    };
-
-    // Cleanup to restore original function on unmount
-    return () => {
-      Node.prototype.removeChild = oldRemoveChild;
-    };
-  }, []);
-
-  return <>{children}</>;
+  const pathname = usePathname() ?? "root";
+  // The key on this wrapper forces React to remount children on route change
+  return <div key={pathname} className="ba-wrapper">{children}</div>;
 }
