@@ -145,7 +145,7 @@ export default function CaseStudiesScroll() {
             viewport={{ once: true }}
             className="text-black mb-4"
           >
-            <Image width="64" height="64" src={study.image} alt={study.title} className="rounded-lg mb-3" />
+            <Image width="1000" height="1000" src={study.image} alt={study.title} className="rounded-lg mb-3" />
             <h3 className="text-xl font-light mb-1">{study.title}</h3>
             <p className="text-sm opacity-80 mb-2">{study.desc}</p>
             <Link
@@ -176,7 +176,7 @@ function ServiceCard({ study }: ServiceCardProps) {
     <div className="ba-service-card text-white">
       <div className="face face-front p-4 bg-primaryrounded-2xl shadow-xl h-full flex flex-col justify-between">
         <figure className="mb-4">
-          <Image width="64" height="64" src={study.image} alt={study.title} className="rounded-xl" />
+          <Image width="1000" height="1000" src={study.image} alt={study.title} className="rounded-xl" />
         </figure>
         <h2 className="text-2xl font-light text-white mb-2">{study.title}</h2>
         <p className="text-sm opacity-80 text-white mb-4">{study.desc}</p>

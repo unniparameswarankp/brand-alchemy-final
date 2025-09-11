@@ -175,8 +175,8 @@ export default function InteractiveHome() {
             alt={title}
             className="w-64"
             draggable={false}
-            width="64"
-            height="64"
+            width="1000"
+            height="1000"
           />
           </figure>
           <h2

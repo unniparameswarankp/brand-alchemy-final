@@ -43,7 +43,7 @@ export default function DescriptionSection() {
             viewport={{ once: true }}
             className="w-full overflow-hidden"
           >
-            <Image width="64" height="64"
+            <Image width="1000" height="1000"
               src={src}
               alt={`grid-image-${i}`}
               className="w-full h-[480px] object-cover"

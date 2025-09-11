@@ -57,7 +57,7 @@ const toggle = (index: number): void => {
           >
             {/* Background image */}
             <div className="absolute inset-0 z-0">
-              <Image width="64" height="64"
+              <Image width="1920" height="600"
                 src="/images/industry-banner.jpg"
                 alt="Industry Banner"
                 className="w-full h-full object-cover"
@@ -115,7 +115,7 @@ const toggle = (index: number): void => {
   
   <div className="flex flex-col lg:flex-row items-center gap-12">
     <div className="w-full lg:w-1/2">
-      <Image width="64" height="64"
+      <Image width="1000" height="1000"
         src="/images/team/founder.jpg"
         alt="Founder Name"
         className="rounded-2xl w-full h-auto object-cover shadow-md"
@@ -144,7 +144,7 @@ const toggle = (index: number): void => {
   
   <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
     <div className="w-full lg:w-1/2">
-      <Image width="64" height="64"
+      <Image width="1000" height="1000"
         src="/images/team/founder.jpg"
         alt="Founder Name"
         className="rounded-2xl w-full h-auto object-cover shadow-md"
@@ -194,7 +194,7 @@ const toggle = (index: number): void => {
         key={index}
         className="rounded-2xl overflow-hidden shadow-lg bg-gray-100 hover:shadow-xl transition-shadow duration-300"
       >
-        <Image width="64" height="64"
+        <Image width="1000" height="1000"
           src={member.image}
           alt={member.name}
           className="w-full h-64 object-cover"

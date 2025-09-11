@@ -50,7 +50,7 @@ export default function IndustryPage() {
           {/* Right: Case Study Content */}
           <div className="md:w-[60%] w-full space-y-6">
             <figure className="w-full">
-            <Image width="64" height="64" 
+            <Image width="1000" height="1000" 
             className='rounded-lg' src="/images/glowora/image2.jpeg" 
             alt="image"
             />
@@ -71,7 +71,7 @@ export default function IndustryPage() {
           {/* Right: Case Study Content */}
           <div className="md:w-[60%] w-full space-y-6">
              <figure className="w-full">
-            <Image alt="image" width="64" height="64" className='rounded-lg' src="/images/glowora/image4.jpeg" />
+            <Image alt="image" width="1000" height="1000"  className='rounded-lg' src="/images/glowora/image4.jpeg" />
           </figure>  
           </div>
         </div>
@@ -96,11 +96,11 @@ export default function IndustryPage() {
 
         <div className="p-5 grid grid-cols-1 md:grid-cols-2 gap-6 pt-[150px] pb-[150px] rounded-lg" style={{ backgroundColor: '#f896c5' }}>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image5.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image5.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image10.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image10.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
         </div>
@@ -128,11 +128,11 @@ export default function IndustryPage() {
           <div className="md:w-[60%] w-full space-y-6">
            <div className="p-5 grid grid-cols-1 md:grid-cols-2 gap-6 pt-[150px] pb-[150px] rounded-lg" style={{ backgroundColor: '#9b0250' }}>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image3.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image3.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image4.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image4.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
         </div>
@@ -161,11 +161,11 @@ export default function IndustryPage() {
           <div className="md:w-[60%] w-full space-y-6">
            <div className="p-5 grid grid-cols-1 md:grid-cols-2 gap-6 pt-[150px] pb-[150px] rounded-lg" style={{ backgroundColor: '#b04f84'}}>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image8.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image8.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image2.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image2.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
         </div>
@@ -201,11 +201,11 @@ export default function IndustryPage() {
           <div className="md:w-[60%] w-full space-y-6">
            <div className="p-5 grid grid-cols-1 md:grid-cols-2 gap-6 pt-[150px] pb-[150px] rounded-lg" style={{ backgroundColor: 'rgb(228, 135, 189)'}}>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image4.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image4.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
           <div className="w-full overflow-hidden">
-            <Image alt="image" width="64" height="64" src="/images/glowora/image2.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
+            <Image alt="image" width="1000" height="1000" src="/images/glowora/image2.jpeg" className="w-full h-auto object-cover mb-4 rounded-lg" />
           
           </div>
         </div>
@@ -223,14 +223,14 @@ export default function IndustryPage() {
           Glowora is a modern beauty brand that inspires confidence through clarity, quality, and design.
         </p>
         <Link href="#" className="inline-flex items-center gap-3 arrow-btn-black mt-5">
-              View Live Website <img width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
+              View Live Website <img width="1000" height="1000" src="/arrow_right_white.svg" alt="arrow" />
             </Link>
 
           </div>
           {/* Right: Case Study Content */}
           <div className="md:w-[60%] w-full space-y-6">
              <figure className="w-full">
-            <Image alt="image" width="64" height="64" className='rounded-lg' src="/images/glowora/image2.jpeg" />
+            <Image alt="image" width="1000" height="1000" className='rounded-lg' src="/images/glowora/image2.jpeg" />
           </figure>  
           </div>
         </div>

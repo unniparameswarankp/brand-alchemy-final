@@ -210,7 +210,7 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
 
             </button>
             <Image
-            width="64" height="64"
+            width="1000" height="1000"
               src={selected.image}
               alt={selected.name}
               className="w-full h-[clamp(300px,50vh,600px)] object-cover rounded-xl mb-6"
@@ -223,7 +223,7 @@ const handleMouseMove = (index: number, e: React.MouseEvent<HTMLDivElement>) => 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {selected.brands.map((brand, index) => (
         <div key={index} className="rounded-lg overflow-hidden shadow-sm">
-          <Image width="64" height="64"
+          <Image width="1000" height="1000"
             src={brand.image}
             alt={brand.title}
             className="w-full h-64 object-cover"

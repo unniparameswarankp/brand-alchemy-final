@@ -64,7 +64,7 @@ export default function FloatingButton() {
             <div className="grid grid-cols-1 gap-5">
               {caseStudies.map((study, i) => (
                 <div key={i} className="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
-                  <Image width="64" height="64"
+                  <Image width="1000" height="1000"
                     src={study.image}
                     alt={study.title}
                     className="w-full h-48 object-cover"

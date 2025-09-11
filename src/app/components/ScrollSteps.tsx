@@ -84,7 +84,7 @@ export default function ScrollSteps() {
         <div className="flex flex-col space-y-20 pt-[100px] pb-[100px] image-step mr-[-100px]">
           {steps.map((step, index) => (
             <figure key={index}>
-              <Image width="64" height="64"
+              <Image width="1000" height="1000"
                 src={step.image}
                 alt={step.title}
                 className={`step-image w-full transition-opacity duration-500 ease-in-out ${

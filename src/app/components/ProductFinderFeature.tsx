@@ -46,7 +46,7 @@ export default function ProductFinderFeature() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="w-full h-[480px] overflow-hidden rounded-lg pt-[80px]"
         >
-          <Image width="64" height="64"
+          <Image width="1000" height="1000"
             src="/images/printing.jpg"
             alt="Product Finder"
             className="w-full h-full object-cover"
