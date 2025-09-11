@@ -45,7 +45,7 @@ export default function Header() {
             <li><Link href="/industry/" >Industries</Link></li>
             <li><Link href="#" >Works</Link></li>
             <li><Link href="/about/" >About</Link></li>
-            <li><Link href="#" >Contact</Link></li>
+            <li><Link href="/contact/" >Contact</Link></li>
           </ul>
         </nav>
         <button
@@ -164,7 +164,9 @@ export default function Header() {
                 <li><Link href="/industries">Industries</Link></li>
                 <li><Link href="/works">Works</Link></li>
                 <li><Link href="/careers">Careers</Link></li>
+                <li><Link href="/blog">Blogs</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
+                
               </ul>
             </div>
             <div>
