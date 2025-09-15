@@ -71,7 +71,7 @@ export default function CareersPage() {
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative z-10 text-[clamp(2rem,4vw,5rem)] font-light text-center flex flex-wrap justify-center">
-          Contact Us
+          Careers
         </div>
       </div>
 
