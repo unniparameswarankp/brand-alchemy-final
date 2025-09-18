@@ -7,6 +7,7 @@ import ScrollSteps from "./components/ScrollSteps";
 import CaseStudiesScroll from "./components/CasestudiesScroll";
 import OurStory from "./components/OurStory";
 import Footer from "./components/Footer";
+import ScrollVideo from "./components/ScrollVideo";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 <ScrollSteps />
 <CaseStudiesScroll />
 <OurStory />
+<ScrollVideo />
 <Footer />
    </>
   );
