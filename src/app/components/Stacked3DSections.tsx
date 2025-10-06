@@ -211,7 +211,7 @@ export default function Stacked3DSections() {
             <h2 className="text-4xl md:text-5xl font-light mb-2">
               {section.title}
             </h2>
-            <p className="text-lg mb-2">{section.description}</p>
+            <p className="text-sm md:text-lg mb-2">{section.description}</p>
             <div className="flex flex-wrap justify-center gap-4">
               {section.items.map((item, idx) => {
                 const Icon = Fa[item.icon as keyof typeof Fa];

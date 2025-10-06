@@ -133,7 +133,7 @@ export default function CaseStudiesScroll() {
     
       </div>
     </section>
-     <section className="block sm:hidden px-4 py-8">
+     <section className="block bg-white sm:hidden px-4 py-8 pt-150vh">
       <h2 className="font-light text-[clamp(2rem,8vw,5rem)] text-center mb-6">Some of our works</h2>
       <div className="grid grid-cols-1 gap-6">
         {caseStudies.map((study, index) => (
@@ -152,7 +152,7 @@ export default function CaseStudiesScroll() {
               href="#"
               className="inline-flex items-center gap-2 text-sm text-white mt-auto arrow-btn-black"
             >
-              Read More <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
+              Read More <Image className="h-1remw-1rem" width="32" height="32" src="/arrow_right_white.svg" alt="arrow" />
             </Link>
           </motion.div>
         ))}
@@ -184,7 +184,7 @@ function ServiceCard({ study }: ServiceCardProps) {
           href="#"
           className="mt-auto inline-flex items-center gap-3 text-sm arrow-btn"
         >
-          Read More <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
+          Read More <Image className="h-1remw-1rem" width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
         </Link>
       </div>
     </div>

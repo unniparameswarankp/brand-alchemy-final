@@ -607,3 +607,10 @@ a{
   }
   }
 }
+.pt-150vh{
+  padding-top: calc(100vh + 100px);
+}
+.h-1remw-1rem{
+  height: 1rem!important;
+  width: 1rem!important;
+}
