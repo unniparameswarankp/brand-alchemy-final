@@ -18,7 +18,7 @@ export default function IndustryBanner() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image width="1920" height="600"
-          src="/images/industry-banner.jpg"
+          src="/images/service-banner.jpg"
           alt="Industry Banner"
           className="w-full h-full object-cover"
         />

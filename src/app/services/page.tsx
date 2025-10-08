@@ -18,36 +18,36 @@ const sectionData = [
     description:
       'At Alchemy, our branding services are crafted to transform your vision into a distinct and memorable identity. From logo creation and brand design to comprehensive brand strategies and guidelines, we ensure every element speaks your story with clarity and impact.',
     services: [
-      'Logos',
+      'Logo Design',
       'Logo Animation',
       'Brand Design',
       'Brand Strategy',
       'Start-up Packages',
       'Graphic Design',
-      'Rebranding  & Brand Refresh',
+      'Rebranding & Refresh',
       'Brand Guidelines',
       'Brand Collateral & Assets',
       'Brand Audits & Assessments',
       '2D / 3D Visualisation',
     ],
-    video: '/videos/designing.mp4',
+    video: '/videos/branding-new.mp4',
   },
   {
     title: 'Marketing',
     description:
       'Our marketing services are designed to amplify your brand’s visibility and build lasting engagement. We use a data-driven approach combined with creative strategy to connect your message with the right audience across platforms.',
     services: [
-      'Marketing strategy',
+      'Marketing Strategy',
       'Content & Creatives',
       'Digital Marketing Strategy',
       'Social Media Marketing',
-      'E-commerce marketing',
+      'E-commerce Marketing',
       'Email Marketing',
       'Paid Advertising',
       'Off-page SEO',
       'CRM Setup & Integration',
     ],
-    video: '/videos/digitalart.mp4',
+    video: '/videos/marketing.mp4',
   },
   {
     title: 'Ads',
@@ -56,42 +56,49 @@ const sectionData = [
     services: [
       'Facebook Ads',
       'Instagram Ads',
-      'Tiktok Ads',
-      'Linkedin Ads',
+      'TikTok Ads',
+      'LinkedIn Ads',
       'Google Ads',
-      'You Tube Ads',
+      'YouTube Ads',
       'Ad Creatives & Copywriting',
     ],
-    video: '/videos/designing.mp4',
+    video: '/videos/ads.mp4',
   },
   {
     title: 'Website',
     description:
-      'We design and develop fast, user-friendly, and scalable websites tailored to your business goals. From Shopify stores to custom UIs, our web solutions are built to impress and perform.',
+      'Custom websites, web apps, and software solutions that are functional, beautiful, and conversion-optimized.',
     services: [
-      'Custom website designs',
+      'Custom Website Designs',
       'UI/UX Design',
       'Website Performance & SEO',
       'Shopify Store',
       'E-commerce Development',
       'Website Maintenance',
       'Hosting & Domain Setup',
+      'Software Development',
+      'CRM/ERP Development',
+      'Web Applications Development',
+      'Mobile App Development',
+      'API Development & Integration',
+      'Ongoing Support & Maintenance',
     ],
-    video: '/videos/webdevelopment.mp4',
+    video: '/videos/ecommerce.mp4',
   },
   {
     title: 'Software Development',
     description:
       'Alchemy offers end-to-end software development services to power your business. Whether you need a mobile app, CRM, or full-scale web application, our team delivers reliable, scalable tech.',
     services: [
-      'Custom Software Development',
-      'CRM/ERP Development',
-      'Web Applications Development',
-      'Mobile App Development (iOS & Android)',
-      'API Development & Integration',
-      'Ongoing Support & Maintenance',
+      'Creative Code',
+      'Digital Alchemy',
+      'Launch Ready',
+      'Modular Design',
+      'Performance',
+      'Automation',
+      'Visual Strategy',
     ],
-    video: '/videos/ecommerce.mp4',
+    video: '/videos/webdevelopment.mp4',
   },
   {
     title: 'Print',
@@ -109,7 +116,7 @@ const sectionData = [
       'Banners',
       'Trade Show Materials',
     ],
-    video: '/videos/designing.mp4',
+    video: '/videos/printing.mp4',
   },
   {
     title: 'Video Commercial',
@@ -124,7 +131,7 @@ const sectionData = [
       'YouTube Ads',
       'Voiceover & Scriptwriting',
     ],
-    video: '/videos/digitalart.mp4',
+    video: '/videos/videocommercial.mp4',
   },
 ];
 
@@ -182,7 +189,7 @@ export default function IndustryPage() {
         className="inline-flex items-center gap-3 arrow-btn-black mt-5"
       >
         Explore {section.title}{' '}
-        <Image width="1000" height="1000" src="/arrow_right_white.svg" alt="arrow" />
+        <Image width="64" height="64" src="/arrow_right_white.svg" alt="arrow" />
       </Link>
       <ul className="space-y-6 text-lg lg:text-2xl mt-7">
         {section.services.map((item, index) => (
